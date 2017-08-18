@@ -1,0 +1,24 @@
+{
+  "name": "be-frank-to-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opatel99/be-frank-to-me.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opatel99/be-frank-to-me/issues"
+  },
+  "homepage": "https://github.com/opatel99/be-frank-to-me#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "nunjucks": "^3.0.1"
+  }
+}

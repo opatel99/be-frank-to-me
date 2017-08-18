@@ -1,5 +1,5 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
 
 var QuestionsSchema = new Schema({
 	question: String,
@@ -11,3 +11,6 @@ var FranksSchema = new Schema({
 	password: String,
 	questions: [QuestionsSchema]
 });
+
+module.exports = mongoose.model('Franks', FranksSchema);
+
